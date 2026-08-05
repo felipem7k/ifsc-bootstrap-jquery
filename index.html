@@ -7,7 +7,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>
+            Estilizando e controlando um formulário
+        </h1>
+    </div>
+
+    <div class="mb-3">
+        <div class="row">
+            <div class="col">
+                <label for="name" class="form-label">Nome</label>
+                <input
+                    class="form-control"
+                    type="name"
+                    name="name"
+                    placeholder="Nome completo"
+                >
+            </div>
+            <div class="col">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    placeholder="email@exemplo.com"
+                >
+            </div>
+            <div class="col">
+                <label for="city" class="form-label">Cidade/UF</label>
+                <input
+                    class="form-control"
+                    type="city"
+                    name="city"
+                    placeholder="Cidade"
+                >
+            </div>
+        </div>
+    </div>
 
     <script
     src="https://code.jquery.com/jquery-4.0.0.module.js"
